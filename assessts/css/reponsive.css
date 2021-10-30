@@ -1,0 +1,226 @@
+/* reponsive */
+
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1025px){
+    .font-size-12{
+        font-size: 8px;
+    }
+    
+    .sub-nav{
+        width: 90%;
+    }
+
+    .nav-list li a {
+        font-size: 10px;
+        margin-left: 12px;
+    }
+    /* slider repon */
+    .title-slider{
+        font-size: 18px;
+    }
+    .content-slider{
+        font-size: 12px;
+        padding: 16px 0;
+    }
+    .icon-slider-left{
+        left: 50px;
+    }
+    .icon-slider-right{
+        right: 50px;
+    }
+    /* end slider */
+    .title-content-section{
+        padding-top: 40px;
+        font-size: 18px;
+    }
+    .content-section p {
+        font-size: 12px;
+    }
+    .enterprise{
+        margin: 16px;
+    }
+    .info-enterprise{
+       
+    }
+
+    .enterprise-name{
+        margin: 4px 0;
+        font-size: 16px;
+    }
+    .enterprise-type{
+        font-size: 12px;
+        margin: 4px 0
+    }
+    .enterprise-local{
+        margin: 4px 0
+    }
+
+    .btn-orange{
+        margin: 30px;
+    }
+    .row-items{
+        margin-top: 12px;
+        width: 100%;
+    }
+    .items{
+        width: 45%;
+    }
+    .list-items{
+        display: inline;
+    }
+
+    .content-footer{
+        top: 0;
+    }
+    .title-footer{
+        font-size: 16px;
+    }
+    .content-footer img{
+        width: 15px;
+        height: 15px;
+    }
+    .content-footer li{
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    .bottom-50{
+        width: 100%;
+    }
+    .logo-list-footer{
+        display: inline;
+    }
+}
+
+@media (max-width: 740px){
+    .sub-nav{
+        width: 100%;    
+    }
+    .nav-list{
+        display: none;
+        position: absolute;
+        background-color: white;
+        top: 100px;
+        right: 0;
+        z-index: 999;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .btn-down{
+        display: block;
+        cursor: pointer;
+    }
+    .btn-down :hover .nav-list{
+        display: block;
+    }
+    .nav-list li{
+        display: block;
+    }
+    .nav-list li a{
+        line-height: 50px;
+    }
+    /* end nav */
+
+
+    /* slider repon */
+    .title-slider{
+        font-size: 12px;
+    }
+    .content-slider{
+        font-size: 8px;
+        padding: 8px 0;
+    }
+    .icon-slider-left{
+        left: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .icon-slider-right{
+        right: 20px;
+    }
+    .icon-slider-left,
+    .icon-slider-right
+    {
+        position: absolute;
+        top: 30%;
+        bottom: 0;
+    }
+    /* end slider */
+    /* course */
+    .title-content-section{
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .content-section p {
+        font-size: 8px;
+        padding: 0;
+    }
+    .info-enterprise{
+        width: 100%;
+        margin: 0 8px;
+    }
+    /* end course */
+
+    /* btn */
+    .btn-orange{
+        margin: 15px;
+    }
+
+    /* list items */
+    .items{
+        width: 95%;
+        margin: 8px;
+    }
+    /* end list items */
+
+    .news{
+        display: block;
+    }
+    .img-news{
+        width: 100%;
+    }
+    .content-news{
+        width: 95%;
+        margin: 5px;
+        text-align: justify;
+    }
+    .title-news{
+        font-size: 12px;
+    }
+    .news-items-infor img{
+        width: 14px;
+        height: 14px;
+    }
+    .news-items-infor p{
+        font-size: 8px;
+    }
+
+    /* end news */
+
+    /* infor footer */
+    .img-backgroud-footer{
+        width:100%;
+        height:300px;
+        object-fit: cover;
+        object-position: 50% 50%; /* ngoài ra bạn có thể thêm cái này để xác định vị trí hình ảnh trong box */
+    }
+
+
+    /* bottom footer */
+    .logo-list-footer{
+        flex-wrap: wrap;
+    }
+    .bottom-50{
+        flex-wrap: wrap;
+
+        width: 100%;
+    }
+    .logo-bottom{
+        flex-wrap: wrap;
+
+        width: 100%;
+    }
+}

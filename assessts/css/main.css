@@ -1,0 +1,426 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.clear{
+    overflow: hidden;
+}
+#main{
+    height: 10000px;
+}
+/* define css */
+.font-size-24{
+	font-size: 24px;
+}
+.black-blue{
+    color: #181F28;
+}
+.box-alagin{
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-alagin{
+    text-align: center;
+}
+.icon-nav{
+    margin: -3px;
+}
+
+.color-white{
+    color:#FFFFFF;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.dark-blue{
+    color: #2E3A4A;
+}
+.padding-4{
+    padding: 4px;
+}
+.padding-8{
+	padding: 8px;
+}
+.padding-16{
+    padding: 16px;
+}
+.info-nav{
+    display: inline-block;
+}
+
+
+/* end define */
+
+
+#header{
+    max-width: 100%;
+    top: 0;
+    width: 100%;
+}
+/* begin top nav */
+#top-nav{
+    
+    height: 40px;
+    background-color: #323232;
+
+}
+#top-nav li{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.sub-nav{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;    
+}
+
+
+.login{
+    float: right;
+    height: 40px;
+}
+.login a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+#top-nav .login-nav{
+    
+}
+.phone-number{
+    
+}
+/* end top nav */
+/* begin nav */
+#nav{
+    height: 80px; 
+    background-color: #FFFFFF;
+}
+
+.btn-down{
+    display: none;
+    width: 50px;
+    float: right;
+    margin-top: 12px;
+}
+
+#nav .logo1{
+    display: inline-block;
+    padding: 13px 0;
+
+}
+.nav-list{
+    float: right;
+}
+.nav-list li{
+    display: inline-block;
+}
+.nav-list li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #181F28;
+    font-family: 'Montserrat';
+    line-height: 80px;
+    margin-left: 30px;
+}
+.nav-list li a:hover{
+    color: #0282CD;
+}
+/* end nav */
+
+
+/* begin slider */
+#slider{
+    display: contents;
+    
+    margin-top: 120px;
+}
+.title-slider{
+    
+}
+.img-slider{
+   width: 100%;
+   position: relative;  
+}
+.icon-slider-left,
+.icon-slider-right
+{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+ 
+}
+.icon-slider-left{
+    left: 90px;
+}
+.icon-slider-right{
+    right: 90px;
+}
+.sub-slider{
+    position: absolute;
+    width: 40%;
+    left: 16%;
+    right: 0;
+    top: 20%;
+    text-align: justify;
+}
+.content-slider{
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+
+/* end slider */
+
+
+
+/* begin content */
+#content{
+	width: 100%;
+}
+
+
+.content-section{
+
+}
+
+
+/* begin course */
+.course-ful{
+	width: 100%;
+	margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-content-section{
+    padding-top: 130px;
+		
+}
+
+.info-enterprise{
+	margin: 0 8px;
+    width: 30%;
+	border: 1px solid #CBCDD2;
+}
+
+.course-ful{
+	display: flex;
+	width: 100%;
+}
+
+
+.info-enterprise li{
+	display: inline-block;
+}
+.img-enterprise{
+  width: 100%;
+	
+	
+}
+.enterprise{
+	display: block;
+	margin: 24px;
+	
+}
+.enterprise-name{
+	margin: 8px 0;
+}
+.enterprise-type{
+	margin: 16px 0;
+}
+.enterprise-local{
+	margin: 8px 0;
+}
+/* end info */
+
+/* btn */
+.btn-orange{
+	padding: 10px 22px;
+	border-radius: 5px;
+	background: #FFB03B;
+	border: 0;
+	margin: 60px;
+}
+
+/* btn */
+
+/* list */
+.list-items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items{
+	width: 20%;
+	border: 1px solid #CBCDD2;
+    margin: 0 16px;
+
+}
+.avatar{
+	padding: 20px;
+}
+.name-item{
+	padding: 8px;
+}
+.item-line{
+    background: #FFB03B;
+    width: 100%;
+    height: 16px;
+}
+
+
+/* News */
+
+.news{
+
+    display: flex;
+    width: 100%;
+    border: 1px solid #CBCDD2;
+}
+
+
+
+.content-news{
+    width: 65%;
+    margin: 30px;
+}
+.img-news{
+    width: 35%;
+}
+
+.title-news{
+    color: #181F28;
+}
+.content-infor{
+    display: flex;
+    width: 100%;
+}
+.row-news-items{
+    width: 30%;
+}
+.content-infor li{
+    display: inline-block;
+}
+.news-items-infor{
+    width: 170px;
+    margin: 14px 0;
+}
+.content-summary{
+    color: #797E84;
+}
+#footer{
+    position: relative;
+
+}
+
+.img-footer{
+}
+.img-backgroud-footer{
+    width: 100%;
+}
+.title-footer{
+    font-weight: 500px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.content-footer{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    /* background-color: black; */
+    height: 160px;
+    max-width: max-content;
+}
+
+
+/* bottom footer */
+.footer-infor{
+    
+}
+.footer-infor li{
+    display: inline-block;
+    color: #FFFFFF;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.logo-list-footer{
+    margin-top: 24px;
+    display: flex;
+}
+
+.bottom-footer{
+    width: 100%;
+    height: 100px;
+    
+}
+.logo-bottom{
+    width: 50%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.logo-bottom-footer{
+    width: 100%;
+    display: flex;
+}
+
+.logo-pay{
+    width: 240px;
+    height: 25px;
+    
+}
+.logo-lisa{
+    width: 97px;
+    height: 31px;
+    margin-left: 8px;
+}
+.p-bottom{
+    text-align: center;
+    margin-top: 6px;
+}
+.p-huong-viet{
+    font-size: 12px;
+    /* line-height: 100px; */
+    margin-left: 14px;
+
+}
+.logo-huong-viet{
+    width: 203;
+    height: 62px;
+
+}
+
+.logo-bo{
+    width: 119px;
+    height: 44px;
+
+}
+.logo-mxh{
+
+    width: 30%;
+    margin-top: 8px;
+    margin-left: 24px;
+}
+.bottom-50{
+    width: 50%;
+    display: flex;
+}
+/* end bottom footer */
+
+
